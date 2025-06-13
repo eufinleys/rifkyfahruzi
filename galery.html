@@ -1,1 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>lah ngapain ampe sini bejir</title>
+  <style>
+    body {
+      font-family: sans-serif;
+      margin: 0;
+      background: #f4f4f4;
+    }
 
+    .gallery {
+      column-count: 4;
+      column-gap: 1em;
+      padding: 1em;
+    }
+
+    .gallery-item {
+      background: white;
+      margin-bottom: 1em;
+      display: inline-block;
+      width: 100%;
+      box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+      border-radius: 8px;
+      overflow: hidden;
+    }
+
+    .gallery-item img {
+      width: 100%;
+      display: block;
+    }
+
+    @media (max-width: 1024px) {
+      .gallery {
+        column-count: 3;
+      }
+    }
+
+    @media (max-width: 768px) {
+      .gallery {
+        column-count: 2;
+      }
+    }
+
+    @media (max-width: 480px) {
+      .gallery {
+        column-count: 1;
+      }
+    }
+  </style>
+</head>
+<body>
+
+  <h2 style="text-align: center; padding: 1em;">wkwkwk ngapain ngecek nya sampe sini weh</h2>
+
+  <div class="gallery">
+    <div class="gallery-item"><img src="https://i.pinimg.com/736x/3b/de/a7/3bdea742758ae29248e3b8327c97d2d9.jpg" alt="rifkyfahruzi"></div>
+    <div class="gallery-item"><img src="https://i.pinimg.com/736x/36/77/79/36777953e9866f96617dbe3fa2d80960.jpg" alt="rifkyfahruzi"></div>
+    <div class="gallery-item"><img src="https://i.pinimg.com/736x/b7/8e/b4/b78eb4ef1728f1b08fb192037938b23e.jpg" alt="rifkyfahruzi"></div>
+    <div class="gallery-item"><img src="https://i.pinimg.com/736x/6a/a1/cf/6aa1cfeb2e03971d0ed1c69d14d0a64e.jpg" alt="rifkyfahruzi"></div>
+    <div class="gallery-item"><img src="https://i.pinimg.com/736x/44/4f/7e/444f7e68374916a0bfaf71c456df4135.jpg" alt="rifkyfahruzi"></div>
+    <div class="gallery-item"><img src="https://i.pinimg.com/736x/9f/01/40/9f01401c53be492cbf3c8b232927b2f4.jpg" alt="rifkyfahruzi"></div>
+    <div class="gallery-item"><img src="https://i.pinimg.com/736x/0a/0a/5a/0a0a5ab68c0f885780cededc535c3061.jpg" alt="rifkyfahruzi"></div>
+    <div class="gallery-item"><img src="https://i.pinimg.com/736x/69/73/92/69739206ccccd8a6cc093cc2334ba36c.jpg" alt="rifkyfahruzi"></div>
+  </div>
+
+</body>
+</html>
